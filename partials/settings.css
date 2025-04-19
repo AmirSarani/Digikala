@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: iranYekan;
+scroll-behavior: smooth;
+
+  /* position: relative; */
+}
+@font-face {
+  font-family: iranYekan;
+  src: url(/media/Yekan.woff);
+}
+
+:root {
+  --digi-gry: #e0e0e2;
+  /* #e0e0e2 */
+  /* gainsboro */
+}

@@ -1,0 +1,1872 @@
+@media (min-width: 992px) and (max-width: 1200px) {
+  .class-none {
+    display: none;
+  }
+/* 
+  <!-- Advertisement
+  بخش بالای هدر که مربوط به تبلیغات هستش 
+  --> */
+
+  .Advertisement {
+    background-color: var(--digi-gry);
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Advertisement > img {
+    width: 100%;
+    /* width: 100%; */
+    max-width: 1800px;
+    height: inherit;
+    /* padding: 10px 10px; */
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    z-index: 999; 
+    background-color: var(--digi-gry);
+  }
+
+  /*<!-- hedear 
+ 
+  هدر بخش اول که شاممل نوار سرچ و ورود و خروج کاربر میشه
+  
+  --> */
+
+  div.header {
+    background-color: white;
+    width: 100%;
+    max-width: 1600px;
+    height: 65px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 55px;
+    left: 0;
+    width: 100%;
+    z-index: 999; 
+  }
+
+  div.header > div.header-part1 {
+    /* background-color: burlywood; */
+    width: 100%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+
+    /* max-width: 1200px; */
+    /* min-width: 300px; */
+    /* flex-grow: 1; */
+  }
+
+  div.header > div.header-part1 > div.header-item-1-bottoms {
+    /* width: 15.75rem; */
+    height: 40px;
+    display: flex;
+  }
+
+
+
+  div.header-item-1-bottoms-shopPng {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+   
+  }
+
+
+  div.header-item-1-bottoms-shopPng > img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+  }
+
+  div.header-item-1-bottoms-span {
+    width: 20px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+
+
+  div.header-item-1-bottoms-span > img {
+    width: 20px;
+    height: 25px;
+  }
+
+  div.header-item-1-botton-login {
+    padding: 0px 8px;
+  }
+
+  div.header-item-1-botton-login > a > div.header-login-btn {
+    width: 135px;
+
+    height: 40px;
+    border: 1px solid var(--digi-gry);
+    border-radius: 5px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+
+  }
+  
+  div.header-item-1-botton-login > a > div.header-login-btn > p{
+    padding-bottom: 5px;
+  }
+
+
+
+  div.header-item-1-botton-login > div.header-login-btn > img {
+    width: 24px;
+    height: 24px;
+  }
+
+  div.header-item-1-bottoms-alertPng {
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.header-item-1-bottoms-alertPng > a > img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+  }
+
+  div.header > div.header-part1 > div.header-item-2-input {
+    /* background-color: red; */
+    width: 100%;
+    height: 40px;
+    padding-right: 15px;
+  }
+
+  div.header > div.header-part1 > div.header-item-2-input > .header-input-1 {
+    width: 100%;
+    /* background-color: red; */
+    height: inherit;
+    background-color: var(--digi-gry);
+    border-radius: 8px;
+    /* padding: 0 16px; */
+    /* min-width: 500px;
+    max-width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 10px;
+    gap: 10px;
+  }
+
+  div.header-item-2-input > .header-input-1 > input {
+    width: 85%;
+    height: 30px;
+    background-color: var(--digi-gry);
+    border: none;
+  }
+
+  div.header-item-2-input > .header-input-1 > h4 {
+    color: #999999;
+  }
+
+  div.header > div.header-part1 > div.header-item-3-img {
+    /* background-color: violet; */
+    width: 14%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 195px;
+    max-width: 195px;
+  }
+
+  div.header > div.header-part1 > div.header-item-3-img > img {
+    width: 195px;
+    height: 30px;
+  }
+
+  /* مربوط به بخش header بخش دوم بالای صفحه  */
+
+  div.header-2{
+    width: 100%;
+    height: 40px;
+    /* background-color: blueviolet; */
+    padding: 0 15px;
+    display: flex;
+      align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 120px; 
+    z-index: 998;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  
+  }
+  
+  div.header-2 > div.header-2-city{
+  /* width: 11%; */
+  /* min-width: 15%; */
+  width: 170px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding-bottom: 3px;
+  background-color: #FEF6EF;
+  border-radius: 20px;
+  color: #F67F17;
+  
+  
+  
+  }
+  
+  div.header-2 > div.header-2-city > p{
+  
+    text-align: center;
+    padding: 5px 0;
+    font-size: 13px;
+  
+  }
+  
+  div.header-2 > div.header-2-city > img {
+    width: 25px;
+    height: 25px;
+  }
+  
+  
+  div.header-2 > div.header-2-city > img:first-of-type{
+    display: none ;
+  }
+  
+  
+  
+  
+  div.header-2 > div.header-2-ul-li {
+  
+  /* width: 60%; */
+  height: inherit;
+  /* background-color: seagreen; */
+  /* min-width: 980px; */
+  /* max-width: 60%; */
+  display: flex;
+  
+  }
+  
+  div.header-2 > div.header-2-ul-li > div.h2-li-left{
+  
+  /* background-color: yellow; */
+  width: 25%;
+  height: inherit;
+  /* border-right:2px solid var(--digi-gry) ; */
+  
+  
+  }
+  
+  div.header-2 > div.header-2-ul-li > div.h2-li-left > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  font-size: 12px;
+  /* gap: 10px; */
+  padding: 8px 4px;
+  
+  
+  }
+
+  
+  div.header-2 > div.header-2-ul-li > div.h2-li-left > ul > img{
+    width: 25px;
+    height: 25px;
+  
+  }
+  
+  
+div.header-2 > div.header-2-ul-li > div.h2-li-left > ul > li{
+  color: gray;
+}
+
+
+  div.header-2 > div.header-2-ul-li > div.h2-li-left > ul > li:hover{
+    border-bottom: 3px solid #d42d4e;
+  }
+
+  
+  
+  div.header-2 > div.header-2-ul-li > div.h2-li-center{
+  
+    /* background-color: red; */
+    width: 60%;
+    height: inherit;
+  /* border-right:2px solid var(--digi-gry) ; */
+    
+    
+    }
+    
+    div.header-2 > div.header-2-ul-li > div.h2-li-center > ul {
+      list-style: none;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: space-evenly;
+    /* align-items: center; */
+    font-size: 12px;
+    gap: 15px;
+    
+    padding: 8px 4px;
+    
+    
+    }
+
+
+    div.header-2 > div.header-2-ul-li > div.h2-li-center > ul > img{
+      width: 25px;
+      height: 25px;
+    
+    }
+    
+    
+    div.header-2 > div.header-2-ul-li > div.h2-li-center > ul > li:hover{
+      border-bottom: 3px solid #d42d4e;
+    }
+  
+  
+    div.header-2 > div.header-2-ul-li > div.h2-li-center > ul > li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: gray;
+    }
+  
+  
+    div.header-2 > div.header-2-ul-li > div.h2-li-center > ul > li > img{
+  
+      width: 20px;
+      height: 20px;
+    }
+  
+    
+    div.header-2 > div.header-2-ul-li > div.h2-li-right{
+  
+      /* background-color: brown; */
+      width: 16%;
+      height: inherit;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+    /* border-right:2px solid var(--digi-gry) ; */
+      
+      
+      }
+
+      div.header-2 > div.header-2-ul-li > div.h2-li-right > ul > img{
+        width: 25px;
+        height: 25px;
+      
+      }
+      
+      
+      div.header-2 > div.header-2-ul-li > div.h2-li-right > ul > li:hover{
+        border-bottom: 3px solid #d42d4e;
+      }
+      
+      div.header-2 > div.header-2-ul-li > div.h2-li-right > ul {
+        list-style: none;
+      display: flex;
+      /* flex-direction: row-reverse; */
+      justify-content: space-evenly;
+      /* align-items: center; */
+      font-size: 14px;
+      gap: 10px;
+      
+      padding: 8px 4px;
+      
+      
+      }
+  
+    /* swiper بحش اول */
+
+  
+      div.swiper-1{
+        /* background-color: #F67F17; */
+        width: 100%; 
+        height: 157px;
+        display: flex;
+        justify-content: center;
+  margin-top: 110px;
+
+        /* padding: 6xcc0px; */
+      }
+      
+      
+      
+      div.swiper-1 > div.swiper-dad-1{
+        /* background-color: aqua; */
+        width: 100%;
+        height: inherit;
+      }
+      
+      div.swiper-slide {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        padding: 10px 0;
+      }
+      
+      div.swiper-1-dad-img{
+        width: 84px;
+        height: 84px;
+        border: 3px solid purple;
+        border-radius: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+      
+      }
+      
+      div.swiper-1-dad-img > div.swiper-1-img{
+        width: 80px;
+        height: 80px;
+        /* background-color: rebeccapurple; */
+        /* background-color: purple; */
+        background: conic-gradient(
+          #f06292,
+          #9c27b0,
+          #d81b60,
+          #f06292
+        );
+        border-radius: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 4px solid white;
+      
+      
+      }
+      
+      div.swiper-1-img > img{
+        width: 64px;
+        height: 64px;
+        border-radius: 60px;
+      
+      }
+      
+      div.swiper-slide > p > span{
+        width: 33px;
+        height: 30px;
+        font-size: 13px;
+        background-color: violet;
+        border-radius: 5px;
+        border: 2px solid white;
+        color: white;
+        position: absolute;
+        top: 45%;
+        right: 33%;
+      }
+      
+      div.swiper-slide > p {
+        font-size: 12px;
+        color: rgb(39, 39, 39);
+      }
+      
+      
+      div.swiper-1-dad-img > div.swiper-1-img-1 > img{
+        width: 74px;
+        height: 74px;
+        border-radius: 60px;
+      }
+      
+      
+
+/* <!-- یخش مرتبط به سفر کردن به بخش های مختلف سایت --> */
+
+
+
+div.hide-swiper-dad{
+  width: 100%;
+  height: 120px;
+  /* background-color: #d81b60; */
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+div.hide-swiper-dad > div.hide-swiper{
+width: 98%;
+height: inherit;
+/* background-color: yellowgreen; */
+display: flex;
+
+
+}
+
+
+div.hide-swiper-dad > div.hide-swiper > div.hide-swiper-1-no-swiper{
+  /* background-color: #f06292; */
+  width: 10%;
+  height: inherit;
+  display: flex;
+  justify-content: start
+  ;
+  align-items: center;
+  flex-direction: column;
+}
+
+div.hide-swiper-dad > div.hide-swiper > div.hide-swiper-1-no-swiper > img{
+  width: 52px;
+  height: 52px;
+}
+
+div.hide-swiper-dad > div.hide-swiper > div.hide-swiper-1-no-swiper > p{
+  text-align: center;
+  font-size: 12px;
+  /* display: flex;
+  justify-content: center; */
+}
+
+
+/* دیو و اسلایدر پیشهاد شگفت انگیز */
+
+div.shegeft-swiper-dad{
+  /* background-color: #9c27b0; */
+  width: 100%;
+  height: 290px;
+  display: flex;
+  justify-content: center;
+}
+
+div.shegeft-swiper-dad > div.shegeft-swiper{
+  width: 98%;
+  height: inherit;
+  background-color: #d42d4e;
+  padding: 20px 20px;
+  border-radius: 15px;
+
+}
+
+div.shegeft-swiper-dad > div.shegeft-swiper > div.swiper-slide {
+  width: 200px;
+  /* background-color: yellow; */
+}
+
+
+
+div.swiper-slide > div.red-shegeft-swiper{
+  /* background-color: blueviolet; */
+  width: inherit;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+div.swiper-slide > div.red-shegeft-swiper > img:first-of-type{  
+  width: 88px;
+  height: 88px;
+
+}
+
+
+div.swiper-slide > div.red-shegeft-swiper > img:last-of-type{  
+  width: 80px;
+  height: 80px;
+
+}
+
+div.swiper-slide > div.red-shegeft-swiper > a{
+  font-size:15px ;
+  color: white;
+}
+
+div.swiper-slide > div.mohtava-shegeft-swiper-1 {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center  ;
+
+}
+
+div.swiper-slide > div.mohtava-shegeft-swiper-1 > img{
+      width: 132px;
+      height: 132px;
+
+}
+
+div.swiper-slide > div.mohtava-shegeft-swiper-1 > p{
+  color: gray;
+  font-size: 12px;
+  text-align: start;
+  
+}
+
+div.swiper-slide > div.mohtava-shegeft-swiper-2 {
+  width: 100%;
+height: 30px;
+  /* background-color: #F67F17; */
+  display: flex;
+  flex-direction: row-reverse;
+  
+justify-content: space-evenly;
+
+  align-items: center;
+  padding: 0 6px;
+}
+
+div.swiper-slide > div.mohtava-shegeft-swiper-2 > img{
+width: 16px;
+height: 16px;
+}
+
+div.swiper-slide > div.mohtava-shegeft-swiper-2 > p {
+  font-size: 17px;
+  /* margin: 0 44px 0 5px; */
+
+}
+
+div.swiper-slide > div.mohtava-shegeft-swiper-2 > span{
+  width : 40px;
+  height: 30px;
+  background-color: #d42d4e;
+  /* padding: 0 5px 0 5px; */
+  border-radius: 20px;
+  color: white;
+}
+
+div.swiper-slide > div.mohtava-shegeft-swiper-3 > p{
+  color: gray;
+  text-decoration: line-through;
+  font-size: 15px;
+  margin-right: 60px;
+  margin-bottom: 20px;
+} 
+
+div.swiper-slide > div.mohtava-shegeft-swiper-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 45% 0;
+  
+}
+
+div.swiper-slide > div.mohtava-shegeft-swiper-4 > img{
+  width: 52px;
+  height: 52px;
+}
+
+div.swiper-slide > div.mohtava-shegeft-swiper-4 > p {
+  font-size: 16px;
+  /* color: gray; */
+}
+
+/* <!-- 4 دیو اول --> */
+
+div.for-div-1-dad{
+  width: 100%;
+  height: 180px;
+  /* background-color: yellowgreen; */
+  margin-top: 10px;
+  display: flex;
+justify-content: center;
+}
+
+div.for-div-1-dad > div.for-div-1{
+  width: 98%;
+  height: inherit;
+  /* background-color: turquoise; */
+  display: flex;
+  gap:20px;
+}
+
+div.for-div-1-dad > div.for-div-1 > div.for-div-item-1{
+  width: 25%;
+  /* background-color: red; */
+  height: inherit;
+  border-radius: 15px;
+
+}
+
+div.for-div-1-dad > div.for-div-1 > div.for-div-item-1 > img{
+  width: 100%;
+  height: inherit;
+  border-radius: 15px;
+
+}
+
+      
+/* <!-- دیو بین 4 دیو ها  --> */
+
+div.one-div {
+  margin: 10px auto;
+  width: 99%;
+  height: 122px;
+  background-color: #9c27b0;
+}
+
+div.one-div > .one-div-img-1{
+  display: none;
+}
+
+
+div.one-div > .one-div-img-2{
+  width: 100%;
+  height: 100%;
+}
+
+div.one-div > .one-div-img-3{
+  display: none;
+}
+
+div.one-div > .one-div-img-4{
+  display: none;
+
+}
+
+
+div.one-div > .one-div-img-5{
+  display: none;
+  }
+       
+
+  
+/* <!-- 4 دیو دوم --> */
+
+      
+div.for-div-2-dad{
+  width: 100%;
+  height: 180px;
+  /* background-color: yellowgreen; */
+  margin-top: 10px;
+  display: flex;
+justify-content: center;
+
+}
+
+div.for-div-2-dad > div.for-div-2{
+  width: 98%;
+  height: inherit;
+  /* background-color: turquoise; */
+  display: flex;
+  gap:20px;
+}
+
+div.for-div-2-dad > div.for-div-2 > div.for-div-item-2{
+  width: 25%;
+  /* background-color: red; */
+  height: inherit;
+  border-radius: 15px;
+
+}
+
+div.for-div-2-dad > div.for-div-2 > div.for-div-2-item-2 > img{
+  width: 100%;
+  height: inherit;
+  border-radius: 15px;
+
+}
+
+
+/* <!-- دیو خرید بر اساس دسته بندی متن--> */
+
+div.daste-bandi-text{
+  width: 95%;
+  height: 60px;
+  /* background-color: tomato; */
+  margin: 10px auto ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+/* <!-- دیو خرید بر اساس دسته بندی سویپر--> */
+
+
+div.daste-bandi-swiper-dad{
+  width: 100%;
+  height: 300px;
+  /* background-color: darkblue; */
+  display: flex;
+  justify-content: center;
+}
+
+
+div.daste-bandi-swiper-dad > div.daste-bandi-swiper{
+
+  width: 90%;
+  /* background-color: hotpink; */
+  height: inherit;
+
+}
+
+div.daste-bandi-swiper-dad > div.daste-bandi-swiper div.swiper-slide {
+
+  min-width: 150px;
+
+}
+
+div.daste-bandi-swiper-dad > div.daste-bandi-swiper div.swiper-slide > img{
+  width: 100px;
+  height: 100px;
+}
+
+div.daste-bandi-swiper-dad > div.daste-bandi-swiper div.swiper-slide > p{
+
+  font-size: 13px;
+
+}
+
+
+
+/* <!-- دیو دو مهم --> */
+
+div.do-mohem-dad{
+  width: 100%;
+  height: auto;
+  margin-top: 15px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+}
+
+div.do-mohem-dad > div.do-mohem{
+  width: 99%;
+  height: inherit;
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+div.do-mohem-dad > div.do-mohem > div.do-mohem-item {
+width: 49%;
+height: inherit;
+/* background-color: #d42d4e; */
+border-radius: 15px;
+}
+
+
+div.do-mohem-dad > div.do-mohem > div.do-mohem-item > img{
+  width: 100%;
+  height: inherit;
+border-radius: 15px;
+}
+
+
+
+/* دیو سویپر محبوبترین برند ها  */
+
+
+
+div.mahbob-swiper-dad{
+  width: 100%;
+ height: 200px;
+  /* background-color: aqua; */
+display: flex;
+justify-content: center;
+}
+
+div.mahbob-swiper-dad > div.mahbob-swiper {
+ width: 95%;
+ height: inherit;
+ border-radius: 15px;
+ border: 1px solid gainsboro;
+/* background-color: #F67F17; */
+padding: 0 6px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+/* align-items: center; */
+/* margin-bottom: 50px; */
+
+
+}
+
+div.mahbob-swiper-dad > div.mahbob-swiper > div.mahbob-swiper-p{
+ /* background-color: #9c27b0; */
+ width: 100%;
+ height: 30%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 8px;
+}
+
+div.mahbob-swiper-dad > div.mahbob-swiper > div.mahbob-swiper-p > p{
+font-size: 18px; 
+}
+
+div.mahbob-swiper-dad > div.mahbob-swiper > div.mahbob-swiper-p > img{
+ width: 24px;
+ height: 24px;
+ margin-top: 5px;
+}
+
+div.mahbob-swiper-dad > div.mahbob-swiper div.swiper-wrapper{
+ padding: 10px 0;
+
+}
+
+
+div.mahbob-swiper-dad > div.mahbob-swiper div.swiper-slide{
+ border-left: 1px solid gainsboro;
+ border-right: 1px solid gainsboro;
+ height: 60%;
+ min-width: 100px;
+ display: flex;
+ justify-content: center;
+
+
+
+}
+
+div.mahbob-swiper-dad > div.mahbob-swiper div.swiper-slide:first-of-type{
+  border-right: none;
+
+
+}
+
+div.mahbob-swiper-dad > div.mahbob-swiper div.swiper-slide:last-of-type{
+  border-left: none;
+
+
+}
+
+
+
+div.mahbob-swiper-dad > div.mahbob-swiper div.swiper-slide > img{
+ width: 80px;
+ height: 80px;
+}
+
+
+
+/* دو بخش سابت پاین سایت */
+
+
+div.sabet-poshtibani{
+  width: 48px;
+  height: 48px;
+  background-color: #d42d4eef;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.sabet-poshtibani > img{
+  width: 90%;
+  height: 90%;
+}
+
+
+div.sabet-souperMarket{
+  width: 130px;
+  height: 50px;
+  background-color: rgb(109, 177, 6);
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 999;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+div.sabet-souperMarket > p{
+  color: white;
+}
+
+
+
+div.sabet-souperMarket > img{
+  width: 24px;
+  height: 24px;
+}
+
+
+
+/* دیو 4 ایتم مورد نیاز شما */
+
+
+
+div.for-item-yu-need-1-dad{
+  width: 100%;
+  /* height: 350px; */
+  /* background-color: #9c27b0; */
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 ;
+}
+
+
+div.for-item-yu-need-1-dad > div.for-item-yu-need-1{
+  width: 95%;
+  height: inherit;
+  /* background-color: #F67F17; */
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  border-radius: 15px;
+  border: 1px solid gainsboro;
+}
+
+
+
+div.for-item-yu-need-1-dad > div.for-item-yu-need-1 > div.for-need-item-1{
+  width: 25%;
+  height: inherit;
+  /* background-color: #f06292; */
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid gainsboro ;
+} 
+
+div.for-item-yu-need-1-dad > div.for-item-yu-need-1 > div.for-need-item-1:first-of-type{
+  border: none;
+}
+
+div.for-item-yu-need-1-dad div.for-item-need-heder-1{
+  /* background-color: #999999; */
+  width: 100%;
+  height: 15%;
+  display: flex;
+  /* justify-content: end; */
+  align-items: end;
+  flex-direction: column;
+  padding: 0 20px;
+  margin-bottom: 10px;
+
+}
+
+div.for-item-yu-need-1-dad div.for-item-need-heder-1 > h4{
+  font-size: 15px;
+}
+
+div.for-item-yu-need-1-dad div.for-item-need-heder-1 > p{
+  font-size: 10px;
+  color: gray;
+}
+
+div.for-item-yu-need-1-dad div.for-item-need-body-1{
+  /* background-color: gray; */
+  width: 100%;
+  height: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* gap: 1px; */
+}
+
+div.for-item-yu-need-1-dad div.for-item-need-body-1 > div.need-body-item{
+  width: 49%;
+  height: 50%;
+  /* background-color: darkblue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+/* padding: 5px 5px; */
+
+}
+
+div.for-item-yu-need-1-dad div.for-item-need-body-1 > div.need-body-item > img{
+  width: 85%;
+  height: 85%;
+}
+
+
+div.for-item-yu-need-1-dad div.for-item-need-footer-1{
+  /* background-color: red; */
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.for-item-yu-need-1-dad div.for-item-need-footer-1 > p{
+color: blue;
+font-size: 13px;
+}
+
+
+
+/* پرفروش ترین کالا ها  */
+
+
+div.por-forosh-kala-dad{
+  width: 100%;
+  height: 350px;
+  /* background-color: #9c27b0; */
+  display: flex;
+  justify-content: center;
+  
+
+
+}
+
+div.por-forosh-kala-dad > div.por-forosh-kala{
+  width: 95%;
+  height: inherit;
+  /* background-color: firebrick; */
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  border: 1px solid gainsboro ;
+
+}
+
+
+div.por-forosh-kala-dad > div.por-forosh-kala > div.por-forosh-text{
+  width: 60%;
+  height: 50px;
+/* background-color: #f06292; */
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+}
+
+div.por-forosh-kala-dad > div.por-forosh-kala > div.por-forosh-text > p{
+  color: blue;
+}
+
+
+
+div.por-forosh-kala-dad > div.por-forosh-kala > div.por-forosh-text > ul{
+  list-style: none;
+  display: flex;
+  gap: 8px;
+}
+
+div.por-forosh-kala-dad > div.por-forosh-kala > div.por-forosh-text > ul > li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
+
+div.por-forosh-kala-dad > div.por-forosh-kala > div.por-forosh-text > ul > li > h4{
+font-size: 18px;
+}
+
+
+div.por-forosh-kala-dad > div.por-forosh-kala > div.por-forosh-swiper{
+  width: 100%;
+  height: 85%;
+  /* background-color: #F67F17; */
+}
+
+div.por-forosh-kala-dad > div.por-forosh-kala > div.por-forosh-swiper div.swiper-slide{
+  min-width: 320px;
+  display: flex; 
+  flex-direction: row;
+  gap: 10px;
+  justify-content: start;
+
+}
+
+div.por-forosh-kala-dad > div.por-forosh-kala > div.por-forosh-swiper div.swiper-slide > img{
+  width: 80px;
+  height: 80px;
+}
+
+
+div.por-forosh-kala-dad > div.por-forosh-kala > div.por-forosh-swiper div.swiper-slide > span{
+  color: #00bfd6;
+  font-size: 35px;
+}
+
+div.por-forosh-kala-dad > div.por-forosh-kala > div.por-forosh-swiper div.swiper-slide > p{
+font-size: 13px;
+text-align: start;
+
+}
+
+
+/* 2 پرفروش ترین کالا ها  */
+
+div.por-forosh-kala-dad-2 {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+}
+
+div.por-forosh-kala-dad-2 > div.por-forosh-kala-2 {
+  width: 95%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  border: 1px solid gainsboro;
+}
+
+div.por-forosh-kala-dad-2 > div.por-forosh-kala-2 > div.por-forosh-text-2 {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.por-forosh-kala-dad-2 > div.por-forosh-kala-2 > div.por-forosh-text-2 > p {
+  color: blue;
+}
+
+div.por-forosh-kala-dad-2 > div.por-forosh-kala-2 > div.por-forosh-text-2 > ul {
+  list-style: none;
+  display: flex;
+  gap: 8px;
+}
+
+div.por-forosh-kala-dad-2 > div.por-forosh-kala-2 > div.por-forosh-text-2 > ul > li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.por-forosh-kala-dad-2 > div.por-forosh-kala-2 > div.por-forosh-text-2 > ul > li > h4 {
+  font-size: 18px;
+}
+
+div.por-forosh-kala-dad-2 > div.por-forosh-kala-2 > div.por-forosh-swiper-2 {
+  width: 100%;
+  height: 85%;
+}
+
+div.por-forosh-kala-dad-2 > div.por-forosh-kala-2 > div.por-forosh-swiper-2 div.swiper-slide {
+  min-width: 320px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: start;
+}
+
+div.por-forosh-kala-dad-2 > div.por-forosh-kala-2 > div.por-forosh-swiper-2 div.swiper-slide > img {
+  width: 80px;
+  height: 80px;
+}
+
+div.por-forosh-kala-dad-2 > div.por-forosh-kala-2 > div.por-forosh-swiper-2 div.swiper-slide > span {
+  color: #00bfd6;
+  font-size: 35px;
+}
+
+div.por-forosh-kala-dad-2 > div.por-forosh-kala-2 > div.por-forosh-swiper-2 div.swiper-slide > p {
+  font-size: 13px;
+  text-align: start;
+}
+
+
+
+    /* مطالب بیشتر در باره دیجیکالا مگ */
+
+    div.digi-mag-dad{
+      /* background-color: #9c27b0; */
+      width: 100%;
+      /* height: 380px; */
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+      /* margin-bottom: 200px; */
+    }
+
+    div.digi-mag-dad > div.digi-mag{
+      /* background-color: #00bfd6; */
+      width: 95%;
+      height: inherit;
+      display: flex;
+      flex-direction: column;
+    }
+
+    div.digi-mag-dad > div.digi-mag > div.digi-mag-item-1{
+      width: 100%;
+      height: 20%;
+      /* background-color: #f06292; */
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 10px;
+    }
+
+    div.digi-mag-dad > div.digi-mag > div.digi-mag-item-1 > h3{
+      font-size: 18px;
+    }
+
+    div.digi-mag-dad > div.digi-mag > div.digi-mag-item-1 > p{
+
+      font-size: 15px;
+      color: #00bfd6;
+    }
+
+
+
+    div.digi-mag-dad div.digi-mag-for-div{
+      width: 100%;
+      height: 100%;
+      /* background-color: yellowgreen; */
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+
+    }
+
+div.digi-mag-dad div.digi-mag-for-div > div.digi-mag-for-div-item{
+  width: 25%;
+  height: 100%;
+
+  /* background-color: tomato; */
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gainsboro;
+}
+
+div.digi-mag-dad div.digi-mag-for-div > div.digi-mag-for-div-item > img{
+  width: 100%;
+  height: 90%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+
+}
+
+div.digi-mag-dad div.digi-mag-for-div > div.digi-mag-for-div-item > p {
+  padding: 0 20px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 20%;
+  /* background-color: #999999; */
+  text-align: end ;
+  font-size: 13px;
+}
+
+
+/* <!-- برگشت بالا --> */
+
+div.bargasht-bala-dad{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      /* swiper css */
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+      
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 100px;
+      
+      }
+      
+      
+      
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height:200px;
+        object-fit: cover;
+      }
+      
+      .swiper-wrapper{
+        direction: rtl;
+      }
+      
+      .swiper-pagination {
+        direction: rtl;
+      }
+      
+
+
+
+
+
+    
+
+}
+
+
+@media (max-width: 1046px) {
+  div.header-item-1-bottoms-shopPng {
+    display: none;
+  }
+  div.header-item-1-bottoms-span {
+    display: none;
+  }
+
+}
+
+@media (max-width: 1023px) {
+  .class-none {
+    display: inline;
+    margin-right: -5px;
+  }
+
+  .digi-logo-2 {
+    width: 61px;
+    height: 16px;
+    margin-right: -5px;
+  }
+
+  .digi-serch-input {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+  }
+
+  div.header-item-1-botton-login > a > div.header-login-btn {
+    display: none;
+  }
+
+  div.header-item-1-bottoms-alertPng {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+    background-color: var(--digi-gry);
+    border-radius: 100px;
+  }
+
+  div.header-item-1-bottoms-shopPng {
+    display: none;
+  }
+
+  div.header-item-1-bottoms-span {
+    display: none;
+  }
+
+
+  div.header > div.header-part1 > div.header-item-3-img{
+    display: none;
+  }
+
+  div.header-2 {
+
+display: flex;
+justify-content: end;
+
+  }
+
+  .header-2.hide {
+    opacity: 0;
+    transform: translateY(-100%);
+    pointer-events: none;
+  }
+
+
+  div.header-2 > div.header-2-city{
+    /* width: 11%; */
+    /* min-width: 15%; */
+    width: 190px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: white;
+    color: black;
+    
+    }
+
+    div.header-2 > div.header-2-city > img:first-of-type{
+      display: inline ;
+      margin-top: 3px;
+    }
+    
+    div.header-2 > div.header-2-city > img:last-of-type{
+      display: none;
+      
+    }
+
+    div.header-2 > div.header-2-ul-li,
+    div.header-2 > div.h2-li-left,
+    div.header-2 > div.h2-li-center,
+    div.header-2 > div.h2-li-right {
+        display: none ;
+    }
+  
+
+
+
+    /* <!-- خرید سوپر مارکت فقط تو زیر 1023 نمایش داده میشه --> */
+
+
+    div.souper-market-1023-fother{
+      /* background-color: #9c27b0; */
+      width: 100%;
+      /* height: 180px; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+
+    div.souper-market-1023{
+      /* background-color: #F67F17; */
+      width: 99%;
+      /* height: inherit; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    div.souper-market-1023 > img {
+      width: inherit;
+
+      border-radius: 20px;
+
+    }
+
+    
+/* <!-- یخش مرتبط به سفر کردن به بخش های مختلف سایت --> */
+
+
+
+div.hide-swiper-dad > div.hide-swiper{
+display: flex;
+justify-content: end;
+}
+
+
+
+div.shegeft-swiper-dad > div.shegeft-swiper{
+  width: 100% !important;
+  /* height: inherit; */
+  /* background-color: #d42d4e; */
+  /* padding: 20px 20px; */
+  border-radius: 0;
+
+}
+
+/* <!-- 4 دیو اول --> */
+
+
+
+div.for-div-1-dad{
+  height: auto;
+}
+
+div.for-div-1-dad > div.for-div-1{
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+div.for-div-1-dad > div.for-div-1 > div.for-div-item-1{
+  width: 48%;
+}
+
+
+
+/* <!-- 4 دیو دوم --> */
+
+
+
+div.for-div-2-dad{
+  height: auto;
+}
+
+div.for-div-2-dad > div.for-div-2{
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+div.for-div-2-dad > div.for-div-2 > div.for-div-item-2{
+  width: 48%;
+}
+
+/* <!-- دیو دو مهم --> */
+
+
+
+div.do-mohem-dad > div.do-mohem{
+  
+  /* display: flex; */
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+div.do-mohem-dad > div.do-mohem > div.do-mohem-item {
+width: 98%;
+}
+
+/* دو بخش سابت پاین سایت */
+
+
+div.sabet-poshtibani{
+  display: none;
+}
+
+
+div.sabet-souperMarket{
+position: fixed;
+  bottom: 65px;
+  /* left: 420px; */
+
+  left: 20px;
+
+}
+
+
+/* فوتری پایین که فقط در زیر سایز 1024 نمایش داده میشه */
+
+
+div.navar-footer{
+  width: 100%;
+  height: 55px;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+
+}
+
+div.navar-footer > div.navbar-footer-item {
+width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+div.navar-footer > div.navbar-footer-item > img{
+  width: 24px;
+  height: 24px;
+}
+
+div.navar-footer > div.navbar-footer-item > p{
+  font-size: 12px;
+}
+
+
+/* دیو 4 ایتم مورد نیاز شما */
+
+div.for-item-yu-need-1-dad > div.for-item-yu-need-1{
+
+  /* background-color: #F67F17; */
+  display: flex;
+  flex-wrap: wrap-reverse;
+  
+
+}
+
+
+
+div.for-item-yu-need-1-dad > div.for-item-yu-need-1 > div.for-need-item-1{
+  width: 98%;
+  /* background-color: #f06292; */
+  border-left:none ;
+
+
+} 
+
+div.for-item-yu-need-1-dad div.for-item-need-heder-1{
+  height: 5%;
+
+}
+
+
+/* پرفروش ترین کالا ها  */
+
+
+
+div.por-forosh-kala-dad > div.por-forosh-kala{
+  width: 95%;
+}
+
+
+div.por-forosh-kala-dad > div.por-forosh-kala > div.por-forosh-text{
+  width: 100%;
+  padding: 0 20px;
+}
+
+
+/* 2 پرفروش ترین کالا ها  */
+
+
+
+div.por-forosh-kala-dad > div.por-forosh-kala-2{
+  width: 95%;
+}
+
+
+div.por-forosh-kala-dad > div.por-forosh-kala-2 > div.por-forosh-text-2{
+  width: 100%;
+  padding: 0 20px;
+}
+
+
+
+
+    /* مطالب بیشتر در باره دیجیکالا مگ */
+
+    div.digi-mag-dad div.digi-mag-for-div{
+      display: flex;
+      justify-content: center;
+      /* flex-wrap: wrap; */
+      flex-direction: column-reverse;
+
+    }
+
+div.digi-mag-dad div.digi-mag-for-div > div.digi-mag-for-div-item{
+  width: 100%;
+  /* height: 690px; */
+}
+/* 
+div.digi-mag-dad div.digi-mag-for-div > div.digi-mag-for-div-item > img{
+  width: 100%;
+  height: 95%;
+} */
+
+/* div.digi-mag-dad div.digi-mag-for-div > div.digi-mag-for-div-item > p{
+  height: 10%;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .Advertisement > img {
+    padding: 10px 20px;
+  }
+
+
+}
+
+
+/*  */
